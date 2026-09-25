@@ -11,11 +11,3 @@ function updateProductName(position, newName) {
 function removeLastProduct() {
   products.pop();
 }
-
-logFirstProduct();
-
-updateProductName(1, "Smartphone");
-
-removeLastProduct();
-
-console.log(products);
